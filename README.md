@@ -42,6 +42,8 @@
 
 ### Test
 
+Download model file at https://pan.baidu.com/s/1BkKo9udW1wCn1ALCYyl_QA (passwd: ipg6)
+
 cd main
 
 #### Gray noisy images
