@@ -336,16 +336,16 @@ class VisionEncoder(nn.Module):
 
         self.img_dim = img_dim
         self.pos_every = pos_every
-        self.num_patches = int((img_dim // patch_dim) ** 2)  # (W*H)/P^2
+        self.num_patches = int((img_dim // patch_dim) ** 2)  
         self.seq_length = self.num_patches
-        self.flatten_dim = patch_dim * patch_dim * num_channels  # C*P^2
+        self.flatten_dim = patch_dim * patch_dim * num_channels  
 
         self.out_dim = patch_dim * patch_dim * num_channels
 
         self.no_pos = no_pos
         self.no_residual = no_residual
 
-        if self.mlp == False: # 这个mlp是加在所有encoder后面的
+        if self.mlp == False: 
             self.linear_encoding = nn.Linear(self.flatten_dim, embedding_dim)
             self.mlp_head = nn.Sequential(
                 nn.Linear(embedding_dim, hidden_dim),
@@ -447,7 +447,7 @@ class TransformerEncoder(nn.Module):
                 output = layer(output, pos=pos, mask=mask)
         else:  # encoder use residual struct
             layers = iter(self.layers)
-            # 前四层 使用 残差结构
+
             output1 = next(layers)(output, pos=pos, mask=mask)
             output2 = next(layers)(output1, pos=pos, mask=mask)
             output3 = next(layers)(output2, pos=pos, mask=mask)
