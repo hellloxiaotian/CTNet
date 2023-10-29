@@ -126,7 +126,8 @@ python trian.py --mode train --n_pat_per_image 48 --batch_size 8 --lr 0.0002 --m
 
 1. Tian, Chunwei, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, and Chia-Wen Lin. "A cross Transformer for image denoising." Information Fusion (2023): 102043.
 
-2. @article{tian2023cross,
+2.
+   @article{tian2023cross,
    
   title={A cross Transformer for image denoising},
   
