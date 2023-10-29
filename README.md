@@ -1,4 +1,4 @@
-## This paper as well as A cross Transformer for image denoising is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin. This  paper is accepted by the information fusion (IF:18.6)([https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597)) and it is implemented by Pytorch.Besides, it is reported by wechat public accounts at [https://mp.weixin.qq.com/s/Debh7PZSFTBtOVxpFh9yfQ](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w) .
+## This paper as well as A cross Transformer for image denoising is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin. This  paper is accepted by the information fusion (IF:18.6)([https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597)) and it is implemented by Pytorch. Besides, it is reported by wechat public accounts at [https://mp.weixin.qq.com/s/Debh7PZSFTBtOVxpFh9yfQ](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w) .
 
 ## Its abstract is shown as follows.
 
