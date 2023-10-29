@@ -124,22 +124,19 @@ python trian.py --mode train --n_pat_per_image 48 --batch_size 8 --lr 0.0002 --m
 
 ## You can cite this paper by the following ways.
 
-1. Tian, Chunwei, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, and Chia-Wen Lin. "A cross Transformer for image denoising." Information Fusion (2023): 102043.
+### 1. Tian, Chunwei, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, and Chia-Wen Lin. "A cross Transformer for image denoising." Information Fusion (2023): 102043.
 
-2.
-   @article{tian2023cross,
-   
-  title={A cross Transformer for image denoising},
+### 2.@article{tian2023cross,
+   ### title={A cross Transformer for image denoising},
   
-  author={Tian, Chunwei and Zheng, Menghua and Zuo, Wangmeng and Zhang, Shichao and Zhang, Yanning and Lin, Chia-Wen},
+  ### author={Tian, Chunwei and Zheng, Menghua and Zuo, Wangmeng and Zhang, Shichao and Zhang, Yanning and Lin, Chia-Wen},
   
-  journal={Information Fusion},
+  ### journal={Information Fusion},
   
-  pages={102043},
+  ### pages={102043},
   
-  year={2023},
+  ### year={2023},
   
-  publisher={Elsevier}
-
-}
+  ### publisher={Elsevier}
+### }
 
