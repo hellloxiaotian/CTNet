@@ -1,4 +1,4 @@
-## This paper as well as A cross Transformer for image denoising is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin. This  paper is accepted by the Information Fusion (IF:18.6)([https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597)) and it is implemented by Pytorch. Besides, it is reported by famous computer vision platform of 52CV at [https://mp.weixin.qq.com/s/Debh7PZSFTBtOVxpFh9yfQ](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w) .
+![image](https://github.com/hellloxiaotian/CTNet/assets/25679314/82e9e5cb-22cf-4048-9500-be57b91845bf)## This paper as well as A cross Transformer for image denoising is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin. This  paper is accepted by the Information Fusion (IF:18.6)([https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597)) and it is implemented by Pytorch. Besides, it is reported by famous computer vision platform of 52CV at [https://mp.weixin.qq.com/s/Debh7PZSFTBtOVxpFh9yfQ](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w) .
 
 ## Its abstract is shown as follows.
 
@@ -42,7 +42,7 @@
 
 ### Test
 
-Download model file at https://pan.baidu.com/s/1BkKo9udW1wCn1ALCYyl_QA (passwd: ipg6)
+Download model file at https://pan.baidu.com/s/1HX1EqfvUbAvSEJCxkAtX_A (passwd: 0hbf)
 
 cd main
 
