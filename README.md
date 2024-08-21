@@ -42,7 +42,7 @@
 
 ### Test
 
-Download model file at https://pan.baidu.com/s/1HX1EqfvUbAvSEJCxkAtX_A (passwd: 0hbf)
+Download model file at https://pan.baidu.com/s/17wrNyBkOoEzMZCs7kDxD6Q (passwd: teag)
 
 cd main
 
