@@ -42,7 +42,7 @@
 
 ### Test
 
-Download model file at https://pan.baidu.com/s/17wrNyBkOoEzMZCs7kDxD6Q (passwd: teag)
+Download model file at [baiduyun](https://pan.baidu.com/s/17wrNyBkOoEzMZCs7kDxD6Q) (passwd: teag) or [googledrive](https://drive.google.com/drive/folders/1Pv7jitMs78wqRxuKBVShjfVI2bOTaiTO?usp=sharing)
 
 cd main
 
