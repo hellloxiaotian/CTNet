@@ -1,6 +1,5 @@
 # A cross Transformer for image denoising
-**This paper is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin, accepted by the Information Fusion (IF:18.6).  PDF file can be gotten from [sciencedirect](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597) or [arxiv](https://arxiv.org/pdf/2310.10408.pdf).  Besides, it is reported by famous computer vision platform of 52CV [here](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w)** .  
-**This repo is the pytorch implement of A cross Transformer for image denoising**
+**This paper is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin, accepted by the Information Fusion (IF:18.6).  PDF file can be gotten from [sciencedirect](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597) or [arxiv](https://arxiv.org/pdf/2310.10408.pdf).  Besides, it is reported by famous computer vision platform of 52CV [here](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w). This repo is the pytorch implement of this paper.**
 
 ## Abstract
 
