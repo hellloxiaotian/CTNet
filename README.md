@@ -129,17 +129,17 @@ Tian, Chunwei, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, and Ch
 ### 2. BibTex
 ```
 @article{tian2023cross,
-   ### title={A cross Transformer for image denoising},
+   title={A cross Transformer for image denoising},
   
-  ### author={Tian, Chunwei and Zheng, Menghua and Zuo, Wangmeng and Zhang, Shichao and Zhang, Yanning and Lin, Chia-Wen},
+   author={Tian, Chunwei and Zheng, Menghua and Zuo, Wangmeng and Zhang, Shichao and Zhang, Yanning and Lin, Chia-Wen},
   
-  ### journal={Information Fusion},
+   journal={Information Fusion},
   
-  ### pages={102043},
+   pages={102043},
   
-  ### year={2023},
+   year={2023},
   
-  ### publisher={Elsevier}
+   publisher={Elsevier}
 }
 ```
 
