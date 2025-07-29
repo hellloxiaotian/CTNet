@@ -1,5 +1,5 @@
 # A cross Transformer for image denoising
-**This paper as well as A cross Transformer for image denoising is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin. This  paper is accepted by the Information Fusion (IF:18.6)([sciencedirect](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597)) or [arxiv](https://arxiv.org/pdf/2310.10408.pdf). And it is implemented by Pytorch. Besides, it is reported by famous computer vision platform of 52CV [here](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w)** .
+**This paper as well as A cross Transformer for image denoising is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin. This  paper is accepted by the Information Fusion (IF:18.6)[sciencedirect](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597) or [arxiv](https://arxiv.org/pdf/2310.10408.pdf). And it is implemented by Pytorch. Besides, it is reported by famous computer vision platform of 52CV [here](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w)** .
 
 ## Abstract
 
@@ -7,35 +7,35 @@
 
 ## Requirements (Pytorch)
 
-#### Pytorch 1.10.2
+**Pytorch 1.10.2**
 
-#### Python 3.8
+**Python 3.8**
 
-#### openCv for Python
+**openCv for Python**
 
 ## DataSet
 
 ### Training datasets
 
-#### The training dataset of the CBSD500 images is downloaded at https://pan.baidu.com/s/1ou2mK5JUh-K8iMu8-DMcMw (baiduyun) or https://drive.google.com/open?id=1S1_QrP-fIXeFl5hYY193lr07KyZV8X8r (google drive)
+#### The training dataset of the CBSD500 images is downloaded at [baiduyun](https://pan.baidu.com/s/1ou2mK5JUh-K8iMu8-DMcMw) or [google drive](https://drive.google.com/open?id=1S1_QrP-fIXeFl5hYY193lr07KyZV8X8r)
 
-#### The training dataset of the DIV2K can be obtained at https://data.vision.ee.ethz.ch/cvl/DIV2K/
+#### The training dataset of the DIV2K can be obtained [here](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 
-#### The training dataset of the Flickr2K can be obtained at http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar
+#### The training dataset of the Flickr2K can be obtained [here](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)
 
-#### The training dataset of the WED can be obtained at https://ece.uwaterloo.ca/~k29ma/exploration/
+#### The training dataset of the WED can be obtained [here](https://ece.uwaterloo.ca/~k29ma/exploration/)
 
-#### Test dataset of BSD68 is downloaded at https://drive.google.com/file/d/1_fw6EKne--LVnW0mo68RrIY-j6BKPdSp/view?usp=sharing (google drive)
+#### Test dataset of BSD68 is downloaded at [google drive](https://drive.google.com/file/d/1_fw6EKne--LVnW0mo68RrIY-j6BKPdSp/view?usp=sharing)
 
-#### Test dataset of Set12 is downloaded at https://drive.google.com/file/d/1cpQwFpNv1MXsM5bJkIumYfww8EPtlkWf/view?usp=sharing (google drive)
+#### Test dataset of Set12 is downloaded at [google drive](https://drive.google.com/file/d/1cpQwFpNv1MXsM5bJkIumYfww8EPtlkWf/view?usp=sharing)
 
-#### Test dataset of CBSD68 is downloaded at https://drive.google.com/file/d/1lxXQ_buMll_JVWxKpk5fp0jduW5F_MHe/view?usp=sharing (google drive)
+#### Test dataset of CBSD68 is downloaded at [google drive](https://drive.google.com/file/d/1lxXQ_buMll_JVWxKpk5fp0jduW5F_MHe/view?usp=sharing)
 
-#### Test dataset of Kodak24 is downloaded at https://drive.google.com/file/d/1F4_mv4oTXhiG-zyG9DI4OO05KqvEKhs9/view?usp=sharing (google drive)
+#### Test dataset of Kodak24 is downloaded at [google drive](https://drive.google.com/file/d/1F4_mv4oTXhiG-zyG9DI4OO05KqvEKhs9/view?usp=sharing)
 
-#### The training dataset of real noisy images is downloaded at https://drive.google.com/file/d/1IYkR4zi76p7O5OCevC11VaQeKx0r1GyT/view?usp=sharing and https://drive.google.com/file/d/19MA-Rgfc89sW9GJHpj_QedFyo-uoS8o7/view?usp=sharing （google drive）
+#### The training dataset of real noisy images is downloaded at [link1](https://drive.google.com/file/d/1IYkR4zi76p7O5OCevC11VaQeKx0r1GyT/view?usp=sharing) and [link2](https://drive.google.com/file/d/19MA-Rgfc89sW9GJHpj_QedFyo-uoS8o7/view?usp=sharing)
 
-#### The test dataset of real noisy images is downloaded at https://drive.google.com/file/d/17DE-SV85Slu2foC0F0Ftob5VmRrHWI2h/view?usp=sharing (google drive)
+#### The test dataset of real noisy images is downloaded at [google drive](https://drive.google.com/file/d/17DE-SV85Slu2foC0F0Ftob5VmRrHWI2h/view?usp=sharing)
 
 
 
@@ -49,25 +49,25 @@ cd main
 
 #### Gray noisy images
 
-python trian.py --mode test --model_name gtd --rgb_range 1 --n_colors 1 --sigma 25 --num_layers 1 --n_GPUs 1 --GPU_id 3 --test_dataset Set12 --model_file_name ../model_zoo/ctnet/g25/model_sigma25.pth
+`python trian.py --mode test --model_name gtd --rgb_range 1 --n_colors 1 --sigma 25 --num_layers 1 --n_GPUs 1 --GPU_id 3 --test_dataset Set12 --model_file_name ../model_zoo/ctnet/g25/model_sigma25.pth`
 
 #### Gray blind denoising
 
-python trian.py --mode test --model_name gtd --rgb_range 1 --n_colors 1 --sigma 50 --num_layers 1 --n_GPUs 1 --GPU_id 3 --test_dataset Set12 --model_file_name ../model_zoo/ctnet/denoising_b/g/model_sigma100.pth
+`python trian.py --mode test --model_name gtd --rgb_range 1 --n_colors 1 --sigma 50 --num_layers 1 --n_GPUs 1 --GPU_id 3 --test_dataset Set12 --model_file_name ../model_zoo/ctnet/denoising_b/g/model_sigma100.pth`
 
 #### Color noisy images
 
-python trian.py --mode test --model_name gtd --rgb_range 1 --n_colors 3 --sigma 25 --num_layers 1 --n_GPUs 1 --GPU_id 3 --test_dataset CBSD68 --model_file_name ../model_zoo/ctnet/c25/model_sigma25.pth
+`python trian.py --mode test --model_name gtd --rgb_range 1 --n_colors 3 --sigma 25 --num_layers 1 --n_GPUs 1 --GPU_id 3 --test_dataset CBSD68 --model_file_name ../model_zoo/ctnet/c25/model_sigma25.pth`
 
 #### Color blind denoising
 
-python trian.py --mode test --model_name gtd --rgb_range 1 --n_colors 3 --sigma 50 --num_layers 1 --n_GPUs 1 --GPU_id 3 --test_dataset CBSD68 --model_file_name ../model_zoo/ctnet/denoising_b/c/model_sigma100.pth
+`python trian.py --mode test --model_name gtd --rgb_range 1 --n_colors 3 --sigma 50 --num_layers 1 --n_GPUs 1 --GPU_id 3 --test_dataset CBSD68 --model_file_name ../model_zoo/ctnet/denoising_b/c/model_sigma100.pth`
 
 ### Train
 
-cd main
+`cd main`
 
-python trian.py --mode train --n_pat_per_image 48 --batch_size 8 --lr 0.0002 --model_name gtd --rgb_range 1 --n_colors 1 --sigma 25 --num_layers 1 --n_GPUs 1 --GPU_id 0
+`python trian.py --mode train --n_pat_per_image 48 --batch_size 8 --lr 0.0002 --model_name gtd --rgb_range 1 --n_colors 1 --sigma 25 --num_layers 1 --n_GPUs 1 --GPU_id 0`
 
 
 
@@ -123,11 +123,14 @@ python trian.py --mode train --n_pat_per_image 48 --batch_size 8 --lr 0.0002 --m
 
 ![image-20230925165557758](assets/image-20230925165557758.png)
 
-## You can cite this paper by the following ways.
+## Cite
 
-### 1. Tian, Chunwei, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, and Chia-Wen Lin. "A cross Transformer for image denoising." Information Fusion (2023): 102043.
+### 1. Plain Text 
+Tian, Chunwei, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, and Chia-Wen Lin. "A cross Transformer for image denoising." Information Fusion (2023): 102043.
 
-### 2.@article{tian2023cross,
+### 2. BibTex
+```
+@article{tian2023cross,
    ### title={A cross Transformer for image denoising},
   
   ### author={Tian, Chunwei and Zheng, Menghua and Zuo, Wangmeng and Zhang, Shichao and Zhang, Yanning and Lin, Chia-Wen},
@@ -139,5 +142,6 @@ python trian.py --mode train --n_pat_per_image 48 --batch_size 8 --lr 0.0002 --m
   ### year={2023},
   
   ### publisher={Elsevier}
-### }
+}
+```
 
