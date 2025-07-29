@@ -1,5 +1,6 @@
 # A cross Transformer for image denoising
-**This paper as well as A cross Transformer for image denoising is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin. This  paper is accepted by the Information Fusion (IF:18.6)[sciencedirect](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597) or [arxiv](https://arxiv.org/pdf/2310.10408.pdf). And it is implemented by Pytorch. Besides, it is reported by famous computer vision platform of 52CV [here](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w)** .
+**This paper is conducted by Chunwei Tian, Menghua Zheng, Wangmeng Zuo, Shichao Zhang, Yanning Zhang, Chia-Wen Lin, accepted by the Information Fusion (IF:18.6).  PDF file can be gotten from [sciencedirect](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003597) or [arxiv](https://arxiv.org/pdf/2310.10408.pdf).  Besides, it is reported by famous computer vision platform of 52CV [here](https://mp.weixin.qq.com/s/NdSoiYdi9llJBnLGMx2G4w)** .  
+**This repo is the pytorch implement of A cross Transformer for image denoising**
 
 ## Abstract
 
@@ -33,7 +34,7 @@
 
 **The training dataset of real noisy images is downloaded at [link1](https://drive.google.com/file/d/1IYkR4zi76p7O5OCevC11VaQeKx0r1GyT/view?usp=sharing) and [link2](https://drive.google.com/file/d/19MA-Rgfc89sW9GJHpj_QedFyo-uoS8o7/view?usp=sharing)**
 
-**The test dataset of real noisy images is downloaded at [google drive](https://drive.google.com/file/d/17DE-SV85Slu2foC0F0Ftob5VmRrHWI2h/view?usp=sharing)
+**The test dataset of real noisy images is downloaded at [google drive](https://drive.google.com/file/d/17DE-SV85Slu2foC0F0Ftob5VmRrHWI2h/view?usp=sharing)**
 
 
 
@@ -41,7 +42,7 @@
 
 ### Test
 
-Download model file at [baiduyun](https://pan.baidu.com/s/17wrNyBkOoEzMZCs7kDxD6Q) (passwd: teag) or [googledrive](https://drive.google.com/drive/folders/1Pv7jitMs78wqRxuKBVShjfVI2bOTaiTO?usp=sharing)
+**Download model file at [baiduyun](https://pan.baidu.com/s/17wrNyBkOoEzMZCs7kDxD6Q) (passwd: teag) or [googledrive](https://drive.google.com/drive/folders/1Pv7jitMs78wqRxuKBVShjfVI2bOTaiTO?usp=sharing)**
 
 `cd main`
 
